@@ -7,6 +7,8 @@ use std::path;
 
 use compiler::*;
 
+//TODO make function that takes a file and prepends a header, using its path
+
 fn prepend(s1: String, mut s2: String) -> String {
     s2.push_str("\n");
     s2.push_str(&s1);
