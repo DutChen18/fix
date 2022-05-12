@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
-	printf("Hallo, Wereld!\n");
+	print_hello();
 	return EXIT_SUCCESS;
 }
